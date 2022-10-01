@@ -7,6 +7,7 @@ function closePlayerConfig() {
   enableModal.style.display = "none";
   enableBackDrop.style.display = "none";
   formElement.firstElementChild.classList.remove('error');
+  errorOuputElement.textContent = '';
 }
 
 function savePlayerConfig (event) {
