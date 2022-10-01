@@ -6,6 +6,7 @@ function openPlayerConfig() {
 function closePlayerConfig() {
   enableModal.style.display = "none";
   enableBackDrop.style.display = "none";
+  formElement.firstElementChild.classList.remove('error');
 }
 
 function savePlayerConfig (event) {
